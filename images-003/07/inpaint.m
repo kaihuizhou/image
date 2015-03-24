@@ -47,7 +47,7 @@ for it=1:200
     pp = pp.*fan;
     f = f + pp;
     
-    if mod(it,1)==0
+    if mod(it,2)==0
         it
         pause(0.1);
         imagesc(f,[0 1]);colormap(gray)
